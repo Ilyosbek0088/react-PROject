@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.style-module_fillIcons__6---A .filled-icons{
+    display: flex;
+}
+svg{
+    display: inline;
+}
+
+body {
+  background-color: #121212; /* Qorong'u fon rangi */
+  color: #ffffff; /* Oq matn rangi */
+}
+
+.navbar, .footer {
+  background-color: #1e1e1e; /* Navbar va footer uchun qorong'u fon */
+}
+
+h1, h2, h3, p {
+  color: #ffffff; /* Matn rangini oq qilib belgilash */
+}
+
+.cart
+{
+    background-color: black;
+    box-shadow: 0px 0px 30px 1px white;
+}
+
+button
+{
+    background-color: black;
+    box-shadow: 0px 0px 40px 1px white;
+}
+
+.btn
+{
+    background-color: black;
+    box-shadow: 0px 0px 20px 1px white;
+}
+
+*{
+    font-family: fantasy;
+    font-weight: 800;
+}
