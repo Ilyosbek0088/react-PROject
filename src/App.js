@@ -4,7 +4,6 @@ import React, { lazy } from 'react'
 import Navbar from "./components/navbar"
 import Footer from './components/footer'
 import { Route, Routes } from 'react-router-dom'
-
 const Home = lazy(()=> import('./pages/home/home.js'))
 const About = lazy(()=> import('./pages/about/about.js'))
 const Products = lazy(()=> import('./pages/products/products.js'))

@@ -17,7 +17,7 @@ import { FaCartArrowDown } from "react-icons/fa";
 
 const NavbarDefault = () => {
   return (
-    <div className='container lg:flex hidden  justify-between items-center w-full'>
+    <div className='container lg:flex hidden  justify-around items-center w-full'>
       <div className='font-[700] text-[25px]'>Crystal Shop</div>
       <div>
         {routes.map((route)=>(
