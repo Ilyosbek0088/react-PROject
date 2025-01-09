@@ -48,7 +48,7 @@ button {
   border-top: 2px solid #6c757d; /* Light border color */
   border-bottom: 2px solid #6c757d; /* Light border color */
 
-  background-image: url('https://img.freepik.com/free-photo/composition-black-friday-with-gift-boxes_23-2147696789.jpg?t=st=1734971503~exp=1734975103~hmac=cadbba41f847faeda7d0cffd03c4b32ac92a8077be298cdb3e2abaee637ce94d&w=1060');
+  background-image: url('https://garne.com.ua/upload/data/article_2017/articles_44.jpg');
 }
 
 .contain {
@@ -56,9 +56,14 @@ button {
 }
 
 .stroke {
-  -webkit-text-stroke: 1px #adb5bd; /* Light stroke color */
+  -webkit-text-stroke: 1px #038fa8; /* Light stroke color */
 }
 
 .stroke1 {
   -webkit-text-stroke: 1px #007bff; /* Light blue stroke color */
+}
+
+.title
+{
+  text-shadow: 0px 0px 15px #06b6d4;
 }

@@ -8,9 +8,9 @@ const Home = () => {
 
   <div className='w-full rounded-lg scale-120 p-4 backdrop-blur-md'>
         <div className='w-80'>
-        <h1 className='text-6xl text-slate-600'>Winter Season</h1>
-        <div className='bg-slate-600 w-full h-0.5'></div>
-        <p className='text-5xl text-transparent stroke'>Black Friday</p></div>
+        <h1 className='title text-6xl text-cyan-500'>Winter Season</h1>
+        <div className=' bg-cyan-500 w-full h-0.5'></div>
+        <p className=' title1 text-5xl text-transparent stroke'>Black Friday</p></div>
       </div>
  </div>   
 

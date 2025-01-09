@@ -15,10 +15,10 @@ import { Pagination } from 'swiper/modules';
 export default function SwiperComponent() {
   return (
     <SwiperCore pagination={true} modules={[Pagination]} className="mySwiper">
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
+      <SwiperSlide><img src='https://cdn.shopify.com/s/files/1/0070/7032/articles/homepage-design.png?v=1727452539' className='w-full ' /></SwiperSlide>
+      <SwiperSlide><img src='https://cdn.shopify.com/s/files/1/0070/7032/articles/homepage-design.png?v=1727452539' className='w-full ' /></SwiperSlide>
+      <SwiperSlide><img src='https://cdn.shopify.com/s/files/1/0070/7032/articles/how_20to_20start_20an_20online_20store_240b2148-d7a8-43dc-aad2-0bd731ee7ef6.png' className='w-full ' /></SwiperSlide>
+      <SwiperSlide><img src='https://cdn.shopify.com/s/files/1/0070/7032/articles/how_20to_20create_20a_20facebook_20shop.png?v=1729263391' className='w-full ' /></SwiperSlide>
     </SwiperCore>
   );
 }

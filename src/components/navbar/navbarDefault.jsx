@@ -21,7 +21,7 @@ const NavbarDefault = () => {
       <div className='font-[700] text-[25px]'>Crystal Shop</div>
       <div>
         {routes.map((route)=>(
-          <Link className='mx-2 text-[18px] hover:text-slate-600 ' key={route.id} to={route.path}>{route.element}</Link>
+          <Link className='mx-2 text-[18px] hover:text-cyan-500 'key={route.id} to={route.path}>{route.element}</Link>
         ))}
       </div>
       <div className='flex justify-center items-center gap-x-2'>

@@ -6,30 +6,30 @@ const ContactUs = () => {
       <div className="flex flex-wrap">
         {/* Left Section */}
         <div className="w-full md:w-1/2 px-4">
-          <p className="text-center text-gray-600 text-lg mb-6">
+          <p className="text-center text-black text-lg mb-6">
             Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.
           </p>
           <form id="contact-form" name="contact-form" action="mail.php" method="POST">
             <div className="flex flex-wrap -mx-2 mb-4">
               <div className="w-full md:w-1/2 px-2">
-                <label htmlFor="name" className="block text-sm text-gray-700 mb-1">Your Name</label>
-                <input type="text" id="name" name="name" className="w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+                <label htmlFor="name" className="block text-sm text-black mb-1">Your Name</label>
+                <input type="text" id="name" name="name" className="w-full border-black rounded-md shadow-sm focus:ring-black focus:border-black" />
               </div>
               <div className="w-full md:w-1/2 px-2">
-                <label htmlFor="email" className="block text-sm text-gray-700 mb-1">Your Email</label>
-                <input type="text" id="email" name="email" className="w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+                <label htmlFor="email" className="block text-sm text-black mb-1">Your Email</label>
+                <input type="text" id="email" name="email" className="w-full border-black rounded-md shadow-sm focus:ring-black focus:border-black" />
               </div>
             </div>
             <div className="mb-4">
-              <label htmlFor="subject" className="block text-sm text-gray-700 mb-1">Subject</label>
-              <input type="text" id="subject" name="subject" className="w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+              <label htmlFor="subject" className="block text-sm text-black mb-1">Subject</label>
+              <input type="text" id="subject" name="subject" className="w-full border-black rounded-md shadow-sm focus:ring-black focus:border-black" />
             </div>
             <div className="mb-4">
-              <label htmlFor="message" className="block text-sm text-gray-700 mb-1">Your Message</label>
-              <textarea id="message" name="message" rows="4" className="w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
+              <label htmlFor="message" className="block text-sm text-black mb-1">Your Message</label>
+              <textarea id="message" name="message" rows="4" className="w-full border-black rounded-md shadow-sm focus:ring-black focus:border-black"></textarea>
             </div>
             <div className="text-left">
-              <button type="submit" className="px-6 py-2 bg-blue-500 text-white rounded-md shadow hover:bg-blue-600 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Send</button>
+              <button type="submit" className="px-6 py-2 bg-black text-white rounded-md shadow hover:bg-black focus:ring-2 focus:ring-black focus:ring-offset-2">Send</button>
             </div>
           </form>
         </div>
@@ -45,16 +45,16 @@ const ContactUs = () => {
           ></iframe>
           <div className="flex justify-around text-center">
             <div>
-              <i className="fa fa-map-marker text-2xl text-gray-500 mb-2"></i>
-              <p className="text-gray-700">Tashkent, Uzbekistan</p>
+              <i className="fa fa-map-marker text-2xl text-black mb-2"></i>
+              <p className="text-black">Tashkent, Uzbekistan</p>
             </div>
             <div>
-              <i className="fa fa-phone text-2xl text-gray-500 mb-2"></i>
-              <p className="text-gray-700">+(998)-99-065-42-43</p>
+              <i className="fa fa-phone text-2xl text-black mb-2"></i>
+              <p className="text-black">+(998)-99-065-42-43</p>
             </div>
             <div>
-              <i className="fa fa-envelope text-2xl text-gray-500 mb-2"></i>
-              <p className="text-gray-700">jamshidzayniev10@gmail.com</p>
+              <i className="fa fa-envelope text-2xl text-black mb-2"></i>
+              <p className="text-black">jamshidzayniev10@gmail.com</p>
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 
 //
 import { Rating } from 'react-simple-star-rating';
@@ -6,10 +7,15 @@ import { Rating } from 'react-simple-star-rating';
 const Card = ({data}) => {
     const [rating, setRating] = useState(0)
 
+    const navigate = useNavigate()
     // Catch Rating value
     const handleRating = (rate) => {
       setRating(rate)
   
+    }
+
+    const handleNavigate = (url) =>{
+       navigate(`/product/${url}`)
     }
     
   
@@ -18,15 +24,15 @@ const Card = ({data}) => {
     <section
         class="p-5 md:p-0 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 items-start ">
             {data.length !== 0 ? data.map((value,index)=>(
-        <section class="cart p-5 py-10 bg-black border-[3px] border-solid border-white text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-xl ">
-            <img src="https://www.dropbox.com/s/mlor33hzk73rh0c/x14423.png?dl=1" alt="" />
+        <section class="p-5 py-10 bg-purple-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer">
+            <img src={data[index].image} alt="" />
             <div class="flex justify-center">
                 <Rating initialValue={value.rating.rate} readonly={true}   onClick={handleRating} />
             </div>
-            <h1 class="text-3xl my-5 line-clamp-3 text-black">{value.title}</h1>
+            <h1 class="text-3xl my-5 line-clamp-3">{value.title}</h1>
             <p class="mb-5 line-clamp-3">{value.description}</p>
             <h2 class="font-semibold mb-5">${value.price}</h2>
-            <button class=" bg-[black] text-white p-2 cursor-pointer rounded-md border-[3px] border-solid border-white hover:bg-[white] hover:text-black transition-all  ${active ? 'bg-black text-white' : 'bg-white text-black'}">Add To Cart</button>
+            <button class="p-2 px-6 bg-white border-solid border-black border-[3px] text-black rounded-md hover:bg-purple-600" onClick={()=>handleNavigate(value.id)}>Add To Cart</button>
         </section>
             )) : "No Data"
         }
@@ -36,4 +42,4 @@ const Card = ({data}) => {
   )
 }
 
-export default Card
+export default Card                            
