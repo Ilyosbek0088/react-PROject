@@ -11,12 +11,14 @@ const Contact = lazy(()=> import('./pages/contact/contact.js'))
 const Login = lazy(()=> import('./pages/login/login.js'))
 const Register = lazy(()=> import('./pages/register/register.js'))
 const Cart = lazy(()=> import('./pages/cart/cart.js'))
+const Error = lazy(()=> import('./pages/error/error.js'))
+
 
 const App = () => {
   return (
     <div>
       <Navbar/>
-
+<div className='pt-20 '>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
@@ -25,9 +27,10 @@ const App = () => {
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
         <Route path='/cart' element={<Cart/>}/>
-        <Route path='*' element={<h1>Page not Found</h1>}/>
+        <Route path='*' element={<Error/>}/>
+        {/* <Route path='*' element={<h1>Page not Found</h1>}/> */}
       </Routes>
-
+      </div>
       <Footer/>
     </div>
   )

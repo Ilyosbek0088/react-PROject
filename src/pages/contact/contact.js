@@ -13,20 +13,20 @@ const ContactUs = () => {
             <div className="flex flex-wrap -mx-2 mb-4">
               <div className="w-full md:w-1/2 px-2">
                 <label htmlFor="name" className="block text-sm text-black mb-1">Your Name</label>
-                <input type="text" id="name" name="name" className="w-full border-black rounded-md shadow-sm focus:ring-black focus:border-black" />
+                <input type="text" id="name" name="name" className="w-full border-black rounded-md  border-[3px] border-solid  shadow-sm focus:ring-black focus:border-black" />
               </div>
               <div className="w-full md:w-1/2 px-2">
                 <label htmlFor="email" className="block text-sm text-black mb-1">Your Email</label>
-                <input type="text" id="email" name="email" className="w-full border-black rounded-md shadow-sm focus:ring-black focus:border-black" />
+                <input type="text" id="email" name="email" className="w-full border-black rounded-md  border-[3px] border-solid  shadow-sm focus:ring-black focus:border-black" />
               </div>
             </div>
             <div className="mb-4">
               <label htmlFor="subject" className="block text-sm text-black mb-1">Subject</label>
-              <input type="text" id="subject" name="subject" className="w-full border-black rounded-md shadow-sm focus:ring-black focus:border-black" />
+              <input type="text" id="subject" name="subject" className="w-full border-black rounded-md  border-[3px] border-solid  shadow-sm focus:ring-black focus:border-black" />
             </div>
             <div className="mb-4">
               <label htmlFor="message" className="block text-sm text-black mb-1">Your Message</label>
-              <textarea id="message" name="message" rows="4" className="w-full border-black rounded-md shadow-sm focus:ring-black focus:border-black"></textarea>
+              <textarea id="message" name="message" rows="4" className="w-full border-black rounded-md  border-[3px] border-solid  shadow-sm focus:ring-black focus:border-black"></textarea>
             </div>
             <div className="text-left">
               <button type="submit" className="px-6 py-2 bg-black text-white rounded-md shadow hover:bg-black focus:ring-2 focus:ring-black focus:ring-offset-2">Send</button>
