@@ -19,6 +19,14 @@ import id17 from './images/id-17.jpg';
 import id18 from './images/id-18.jpg';
 import id19 from './images/id-19.jpg';
 import id20 from './images/id-20.jpg';
+import id21 from './images/AIG.jpg';
+import id22 from './images/UNICEF.jpg';
+import id23 from './images/BANCO-BMG.jpg';
+import id24 from './images/EVONIK.jpg';
+import id25 from './images/Antony.jpg';
+import id26 from './images/Palmer.jpg';
+import id27 from './images/VIRGIL.jpg';
+import id28 from './images/AC-MILAN-88.jpg';
 
 const products = [
   {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":id1,"rating":{"rate":3.9,"count":120}},
@@ -40,7 +48,16 @@ const products = [
   {"id":17,"title":"Rain Jacket Women Windbreaker Striped Climbing Raincoats","price":39.99,"description":"Lightweight perfect for trip or casual wear.","category":"women's clothing","image":id17,"rating":{"rate":3.8,"count":679}},
   {"id":18,"title":"MBJ Women's Solid Short Sleeve Boat Neck V","price":9.85,"description":"Lightweight fabric with great stretch for comfort.","category":"women's clothing","image":id18,"rating":{"rate":4.7,"count":130}},
   {"id":19,"title":"Opna Women's Short Sleeve Moisture","price":7.95,"description":"Lightweight, roomy and highly breathable with moisture-wicking fabric.","category":"women's clothing","image":id19,"rating":{"rate":4.5,"count":146}},
-  {"id":20,"title":"DANVOUY Womens T Shirt Casual Cotton Short","price":12.99,"description":"95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print, V-Neck.","category":"women's clothing","image":id20,"rating":{"rate":3.6,"count":145}}
+  {"id":20,"title":"DANVOUY Womens T Shirt Casual Cotton Short","price":12.99,"description":"95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print, V-Neck.","category":"women's clothing","image":id20,"rating":{"rate":3.6,"count":145}},
+  {"id":21,"title":"CR7 MAN-U AIG Retro shirt 2008","price":15.99,"description":"Retro football shirt inspired by CR7's 2008 season with Manchester United.","category":"men's clothing","image":id21,"rating":{"rate":4.8,"count":190}},
+  {"id":22,"title":"LM10 BARCELONA UNICEF Retro shirt 2006","price":17.99,"description":"Retro football shirt inspired by LM10's 2006 season with FC Barcelona.","category":"men's clothing","image":id22,"rating":{"rate":5.0,"count":15}},
+  {"id":23,"title":"NJ11 SANTOS BMG Retro shirt 2006","price":22.99,"description":"Retro football shirt inspired by NJ11's 2006 season with Santos.","category":"men's clothing","image":id23,"rating":{"rate":4.9,"count":2}},
+  {"id":24,"title":"RL9 Dortmund Retro Kit 2013","price":18.99,"description":"Retro football shirt inspired by RL9's iconic 2013 season with Borussia Dortmund.","category":"men's clothing","image":id24,"rating":{"rate":4.9,"count":120}},
+  {"id":25,"title":"Antony Manchester United Kit 2023","price":19.99,"description":"Manchester United kit inspired by Antony's debut season at Old Trafford.","category":"men's clothing","image":id25,"rating":{"rate":4.7,"count":85}},
+ {"id":26,"title":"Cole Palmer Chelsea Kit 2023","price":19.49,"description":"Chelsea kit inspired by Cole Palmer's first season at Stamford Bridge.","category":"men's clothing","image":id26,"rating":{"rate":4.8,"count":60}},
+ {"id":27,"title":"Virgil van Dijk Liverpool Kit 2020","price":20.99,"description":"Liverpool kit inspired by Virgil van Dijk's iconic 2020 Premier League-winning season.","category":"men's clothing","image":id27,"rating":{"rate":5.0,"count":150}},
+ {"id":28,"title":"Ronaldinho AC Milan Kit 2008","price":21.99,"description":"AC Milan kit inspired by Ronaldinho's remarkable 2008 season at the club.","category":"men's clothing","image":id28,"rating":{"rate":4.9,"count":110}}
+
 ];
 
 export default products;

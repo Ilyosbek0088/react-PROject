@@ -29,7 +29,7 @@ const BuyPremium = () => {
         </button></a>
         <p className="text-sm text-center text-gray-500 mt-4">
           Already a premium user?{' '}
-          <a href="#" className="text-blue-500 hover:underline">
+          <a href="../login" className="text-blue-500 hover:underline">
             Login
           </a>
         </p>
